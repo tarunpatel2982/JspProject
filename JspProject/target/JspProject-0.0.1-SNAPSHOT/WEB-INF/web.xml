@@ -7,14 +7,29 @@
 	
 	
 	<init-param>
-		<param-name>hello param</param-name>
-		<param-value>sun.jdbc.odbc.jdbcOdbcDriver</param-value>
+		<param-name>hello</param-name>
+		<param-value>Hey Driver</param-value>
 	</init-param>
 	</servlet>
+	
+	<servlet>
+	
+		<servlet-name>IApplication</servlet-name>
+		<jsp-file>/IApplication.jsp</jsp-file>
+	</servlet>
+	
 	
 	<servlet-mapping>
 		<servlet-name>IConfig</servlet-name>
 		<url-pattern>/iconfig</url-pattern>
 	</servlet-mapping>
 	
+	<servlet-mapping>
+		<servlet-name>IApplication</servlet-name>
+		u<url-pattern>/IApplication</url-pattern>
+	</servlet-mapping>
+	<context-param>
+		<param-name>dname</param-name>
+		<param-value>hello Driver</param-value>
+	</context-param>
 </web-app>
