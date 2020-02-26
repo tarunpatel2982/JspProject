@@ -1,20 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-<%@ include file="link.html" %>
+    
+  <%@ taglib prefix="t" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>Insert title here</title>
-		
-<div class="topnav">
-  <a href="user.jsp" class="active">User</a>
-  <a href="#news">Admin</a>
- 
-</div>
 	</head>
 	<body>
-	
+		<t:set var="name" value="HEllo Tarun" ></t:set>
+		
+		<t:out value="${name}"></t:out>	
 	</body>
 </html>

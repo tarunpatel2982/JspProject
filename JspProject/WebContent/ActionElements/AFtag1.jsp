@@ -1,20 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-<%@ include file="link.html" %>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>Insert title here</title>
-		
-<div class="topnav">
-  <a href="user.jsp" class="active">User</a>
-  <a href="#news">Admin</a>
- 
-</div>
 	</head>
 	<body>
-	
+		<h2>this is index Page</h2>
+		
+		<jsp:forward page="AFtag2.jsp">
+		
+		
+			<jsp:param name="uname" value="Tarun Patel" />
+		
+		</jsp:forward>	
 	</body>
 </html>

@@ -1,20 +1,15 @@
+<%@page import="java.util.Calendar"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-<%@ include file="link.html" %>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>Insert title here</title>
-		
-<div class="topnav">
-  <a href="user.jsp" class="active">User</a>
-  <a href="#news">Admin</a>
- 
-</div>
 	</head>
 	<body>
-	
+			<%out.print("Today is  :" + Calendar.getInstance().getTime()); %>
+			
+			<%= request.getParameter("uname") %>	
 	</body>
 </html>

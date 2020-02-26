@@ -1,0 +1,84 @@
+
+
+body
+ {
+	background-color: #001823;	
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.text1
+{
+	margin-left: 44%;
+	color: white;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+.topnav .btnce {
+  margin-left:45%;
+  
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  
+  font-size: 17px;
+ 
+}
+.userform
+{
+	margin-top: 150px;
+	margin-left: 36%;
+	width:390px;
+	color: white;
+	padding: 30px;
+	box-shadow: 1px 1px  300px  white;
+	
+	border-radius: 10px; 
+}
+.textbox
+{
+	margin-left: 30px;
+	color: red;
+	margin-top: 10px;
+	height: 22px;
+	width:250px;
+	border-radius: 10px; 
+}
+.btnsubmit
+{
+	margin-top:15px;
+	margin-left: 30px;
+	border-radius:10px;
+	height:32px;
+	width: 100px;
+	box-shadow: 1px 1px  10px  white;
+	
+	
+}
+.sig
+{
+	margin-left: 110px;
+	margin-bottom: 20px;
+}
+.table input {
+		margin-left: 30px;
+		margin-top: 15px;
+	}

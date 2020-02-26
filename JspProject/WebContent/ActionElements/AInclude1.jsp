@@ -1,20 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-<%@ include file="link.html" %>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>Insert title here</title>
-		
-<div class="topnav">
-  <a href="user.jsp" class="active">User</a>
-  <a href="#news">Admin</a>
- 
-</div>
 	</head>
 	<body>
-	
+			<h1>This in First page</h1>
+			
+			
+			<jsp:include page="AInclude2.jsp"></jsp:include>	
+			
+			<h1>End section of index page</h1>
 	</body>
 </html>
