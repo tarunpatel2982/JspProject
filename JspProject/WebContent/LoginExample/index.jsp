@@ -10,7 +10,8 @@
 		
 <div class="topnav">
   <a href="user.jsp" class="active">User</a>
-  <a href="#news">Admin</a>
+  
+  <a href="UserLogin.html">Admin</a>
  
 </div>
 	</head>
